@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <p id="loading"></p>
+    <p id="loading">Carregando post...</p>
+
     <div id="post" class="hide">
         <a href="index.html">Voltar</a>
 
-        <div class="post-container"></div>
+        <div id="post-container" class="post-container"></div>
 
         <h2>Comentários</h2>
 
@@ -23,10 +26,7 @@
 
             <div class="inputBox">
                 <label for="body">Seu comentário</label>
-                <textarea name="body" id="body">
-
-                </textarea>
-                <input type="text" name="body" id="body" placeholder="Digite seu comentário" required>
+                <textarea name="body" id="body" placeholder="Digite seu comentário" required></textarea>
             </div>
 
             <input type="submit" value="Enviar">
@@ -35,6 +35,7 @@
         <div id="containerComentarios"></div>
     </div>
 
-    <script src="js/index.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
