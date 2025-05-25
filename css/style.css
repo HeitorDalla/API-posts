@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 10px;
+}
+
+a, input[type="submit"] {
+    background-color: rgb(4, 4, 144);
+    color: white;
+    padding: 10px 20px;
+    font: normal normal 1em arial, sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+    opacity: .7;
+}
+
+a, input[type="submit"]:hover {
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+}
+
+#formComentarios {
+    width: 300px;
+}
+
+#formComentarios div {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: .5em;
+}
+
+form label {
+    font: normal bold 18px arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    padding: 6px;
+}
