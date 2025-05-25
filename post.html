@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <p id="loading"></p>
+    <div id="post" class="hide">
+        <a href="index.html">Voltar</a>
+
+        <div class="post-container"></div>
+
+        <h2>Comentários</h2>
+
+        <form id="formComentarios">
+            <div class="inputBox">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="inputBox">
+                <label for="body">Seu comentário</label>
+                <textarea name="body" id="body">
+
+                </textarea>
+                <input type="text" name="body" id="body" placeholder="Digite seu comentário" required>
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <div id="containerComentarios"></div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
