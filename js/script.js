@@ -11,6 +11,10 @@ const paginaPost = document.querySelector("#post");
 const containerPost = document.querySelector("#post-container");
 const containerComentarios = document.querySelector("#containerComentarios");
 
+const formComentarios = document.querySelector("#formComentarios");
+const email = document.querySelector("#email");
+const comentario = document.querySelector("#body");
+
 /// Função para pegar todos os posts
 async function pegarPosts () {
     try {
@@ -44,7 +48,7 @@ async function pegarPosts () {
         })
     } catch (error) {
         loading.textContent = error.message;
-        console.error(error)
+        console.error(error.message);
     }
 }
 
