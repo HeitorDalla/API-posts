@@ -44,6 +44,6 @@ Este projeto é de código aberto e toda contribuição é bem-vinda!
 
 ## Contato
 
-👨‍💼 Criado por Heitor Giussani Dalla Villa
-📧 E-mail: heitorvillavilla@gmail.com
-💼 LinkedIn: linkedin.com/in/heitordallavilla
+- 👨‍💼 Criado por Heitor Giussani Dalla Villa
+- 📧 E-mail: heitorvillavilla@gmail.com
+- 💼 LinkedIn: linkedin.com/in/heitordallavilla
