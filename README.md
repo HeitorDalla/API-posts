@@ -47,3 +47,6 @@ Este projeto é de código aberto e toda contribuição é bem-vinda!
 - 👨‍💼 Criado por Heitor Giussani Dalla Villa
 - 📧 E-mail: heitorvillavilla@gmail.com
 - 💼 LinkedIn: linkedin.com/in/heitordallavilla
+
+## Observações Finais
+Projeto inspirado no <a href="https://tcsglobal.udemy.com/course/javascript-do-basico-ao-avancado-com-node-e-projetos/">Curso de javascript</a>
